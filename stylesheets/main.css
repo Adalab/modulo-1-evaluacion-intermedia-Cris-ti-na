@@ -18,6 +18,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     font-family: var(--primary-font);
+    overflow-y: hidden;
 }
 
 
@@ -31,7 +32,7 @@ body {
     background-color: var(--light-color);
     padding-bottom: 10px;
     padding-top: 13px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .wrapper {
@@ -39,8 +40,7 @@ body {
     flex-direction: column;
     width: 155px;
     margin: auto;
-    border: 1px solid red;
-    
+    /*border: 1px solid red;*/
 }
 
 .logo {
@@ -50,7 +50,7 @@ body {
 .menu {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .menu-nav {
@@ -74,7 +74,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: var(--primary-color);
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .claim {
@@ -82,5 +82,7 @@ body {
     max-width: 155px;
     justify-content: center;
     text-align: center;
+    text-size: 30px;
     color: var(--light-color);
+    padding-bottom: 50%;
 }
