@@ -4,8 +4,12 @@
 }
 
 :root {
-    --primary-font: ;
-    --primary-color: ;
-    --light-color: white;
-    --dark-color: black;
+    --primary-font: 'Rubik', sans-serif;
+    --primary-color: #3CDBC0;
+    --light-color: #FFFFFF;
+    --dark-color: #4a4a4a;
+}
+
+.header {
+    width: 100%;
 }
