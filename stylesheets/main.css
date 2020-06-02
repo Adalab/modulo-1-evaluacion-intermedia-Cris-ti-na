@@ -40,6 +40,7 @@ body {
     flex-direction: column;
     width: 155px;
     margin: auto;
+    align-items: center;
     /*border: 1px solid red;*/
 }
 
@@ -90,7 +91,7 @@ body {
 
 /* MEDIAQ */
 
-@media all and (min-width: 768px) and (max-width: 1200px) {
+@media all and (min-width: 768px) {
     
     .wrapper {
         width: 100%;
@@ -106,6 +107,6 @@ body {
     }
 
     .claim {
-        padding-bottom: 40%;
+        padding-top: 40%;
         font-size: 40px;
     }
