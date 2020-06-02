@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     width: 155px;
     margin: auto;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 .logo {
@@ -86,3 +86,26 @@ body {
     color: var(--light-color);
     padding-bottom: 50%;
 }
+
+
+/* MEDIAQ */
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+    
+    .wrapper {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+    }
+
+    .menu {
+        padding: 0;
+    }
+
+    .claim {
+        padding-bottom: 40%;
+        font-size: 40px;
+    }
