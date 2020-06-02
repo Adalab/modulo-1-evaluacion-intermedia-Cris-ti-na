@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    color: inherit;
+}
+
+:root {
+    --primary-font: ;
+    --primary-color: ;
+    --light-color: white;
+    --dark-color: black;
+}
