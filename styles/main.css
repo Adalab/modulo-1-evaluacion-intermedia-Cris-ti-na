@@ -57,15 +57,17 @@ body {
 
 .menu-nav {
     text-align: center;
-    padding: 0;
+    padding-top: 10px;
     margin: auto;
     display: flex;
 }
+
 .menu-link {
     justify-content: space-between;
     font-size: 16px;
     color: var(--dark-color);
-    padding-right: 40px;
+    padding: 2px;
+    text-transform: uppercase;
 }
 
 /* MAIN */
@@ -80,16 +82,16 @@ body {
     /*border: 1px solid red;*/
 }
 
-.claim {
+.main h1 {
     display: flex;
     max-width: 155px;
     justify-content: center;
     text-align: center;
-    text-size: 30px;
+    font-size: 30px;
     color: var(--light-color);
     padding-bottom: 50%;
+    text-transform: capitalize;
 }
-
 
 /* MEDIAQ */
 
@@ -112,4 +114,5 @@ body {
         padding-top: 40%;
         font-size: 40px;
     }
+
 }
