@@ -18,20 +18,21 @@ body {
     box-sizing: border-box;
     width: 100%;
     font-family: var(--primary-font);
-    overflow-y: hidden;
 }
 
 
 /* HEADER */
 
 .header {
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     align-items: center;
     text-align: center;
     background-color: var(--light-color);
     padding-bottom: 10px;
     padding-top: 13px;
+    position: fixed;
+    top: 0;
     /*border: 1px solid red;*/
 }
 
@@ -66,7 +67,7 @@ body {
     justify-content: space-between;
     font-size: 16px;
     color: var(--dark-color);
-    padding: 2px;
+    padding: 10px;
     text-transform: uppercase;
 }
 
@@ -83,22 +84,21 @@ body {
 }
 
 .main h1 {
-    display: flex;
-    max-width: 155px;
-    justify-content: center;
     text-align: center;
     font-size: 30px;
     color: var(--light-color);
-    padding-bottom: 50%;
+    padding-top: 10vh;
     text-transform: capitalize;
+    width: 155px;
 }
+
 
 /* MEDIAQ */
 
 @media all and (min-width: 768px) {
     
     .wrapper {
-        width: 100%;
+        width: 100vw;
         flex-direction: row;
         justify-content: space-between;
         padding-left: 30px;
@@ -106,13 +106,20 @@ body {
         align-items: center;
     }
 
-    .menu {
-        padding: 0;
+    .header {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .claim {
-        padding-top: 40%;
+    .menu {
+        display: flex;
+        align-items: flex-end;
+        margin: 0;
+    }
+    
+    .main h1 {
         font-size: 40px;
+        width: 200px;
     }
 
 }
