@@ -50,11 +50,14 @@ body {
 
 .menu {
     display: flex;
-    justify-content: center;
-    /*border: 1px solid red;*/
+    align-items: center;
+    margin: auto;
+/*border: 1px solid red;*/
 }
 
 .menu-nav {
+    text-align: center;
+    padding: 0;
     margin: auto;
     display: flex;
 }
@@ -62,8 +65,7 @@ body {
     justify-content: space-between;
     font-size: 16px;
     color: var(--dark-color);
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 /* MAIN */
@@ -110,3 +112,4 @@ body {
         padding-top: 40%;
         font-size: 40px;
     }
+}
